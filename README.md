@@ -1,2 +1,0 @@
-# LocalStorage
-Local Storage Application
