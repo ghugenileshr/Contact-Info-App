@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Dirctory Listing</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+</head>
+<body onload="CheckDisplayType()">
+<div class="container"> 
+	<div class="main">
+		<h1>Contact Infomration Application</h1>
+		<div class="welcome-wrap">
+			<div class="sidebar">
+				<h3>Dashboard Menus</h3>
+				<ul>
+					<li>
+						<a href="index.html">Add Contact</a>
+					</li>
+					<li>
+						<a href="contact-info.html" id='btnContactList'>Contact List</a>
+					</li>
+				</ul>
+			</div>
+			<div class="login-wrap"> 
+				<h3>Contact Form</h3>
+				<form name="MyForm" action="" onsubmit="return form_validation();">
+					<input type="hidden" name="id" value="0" placeholder="First Name">
+					<input type="text" name="f-name" placeholder="First Name">
+					<input type="text" name="l-name" placeholder="Last Name">
+					<input type="text" name="email" placeholder="Email">
+					<input type="text" name="phone" placeholder="Phone Number">
+					<input type="radio" name="status" value="active"> Active
+					<input type="radio" name="status" value="inactive"> Inactive
+					<input type="submit" name="f-submit" value="Submit">
+					<label class="text-success hide lblSuccess">Contact info Updated successfully!</label>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

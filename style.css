@@ -1,0 +1,97 @@
+body {
+	background: #e1e1e1;
+}
+.main {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 100%;
+    min-height: 650px;
+    margin: auto;
+    background: #fff;
+    padding: 30px 60px;
+}
+.main > h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.welcome-wrap {
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+    margin: 30px;
+    height: 100%;
+    min-height: 466px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.hide{display:none;}
+.text-success{color:green;}
+.login-wrap {
+    width: 80%;
+    padding: 20px;
+}
+.sidebar a {
+    color: #fff;
+    padding: 10px 0;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.list-wrap {
+    width: 920px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 50px 30px;
+}
+.contact-wrap {
+    display: flex;
+}
+
+.contact-wrap ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #dcdada;
+}
+.contact-wrap ul {
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #dcdada;
+    border-top: 1px solid #dcdada;
+}
+
+ul#ustatusList > li {
+    border-right: 1px solid #dcdada;
+}
+.login-wrap input[type="text"],
+.login-wrap input[type="submit"] {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 13px;
+    box-sizing: border-box;
+}
+.login-wrap input[type="radio"] {
+    padding: 24px;
+    margin: 20px 0 30px;
+    font-size: 20px;
+}
+
+/* Style for Table*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

@@ -1,2 +1,2 @@
-# Contact-Info-App
-Functionality (Add Contact, List Contact, Edit Contact, Delete Contact)
+# LocalStorage
+Local Storage Application
